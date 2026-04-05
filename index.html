@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Produk laptop per brand</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🏆 Laptop Terbaik DI Setiap Brand</h1>
+        <p>Temukan spesifikasi lengkap dan foto produk laptop favoritmu!</p>
+    </header>
+
+    <main class="products-grid">
+        <!-- Dell XPS -->
+        <div class="product-card" data-brand="dell">
+            <img src="https://s.yimg.com/uu/api/res/1.2/MOHqxex_efRXmAcFBKifyg--~B/aD0xMjE2O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2022-06/5e8c1f20-e8c7-11ec-bfdf-846a6ce9c468.cf.jpg" alt="Dell XPS Laptop" loading="lazy">
+            <div class="card-info">
+                <h2>Dell XPS 15</h2>
+                <ul class="key-specs">
+                    <li>Intel i7-13700H</li>
+                    <li>16GB RAM</li>
+                    <li>512GB SSD</li>
+                </ul>
+                <button class="view-details">Lihat Detail</button>
+            </div>
+        </div>
+
+       <!-- HP Victus -->
+<div class="product-card" data-brand="hp">
+    <img src="https://m.media-amazon.com/images/I/71Q+47iEdbL._AC_.jpg" alt="HP Victus 16 Laptop" loading="lazy">
+    <div class="card-info">
+        <h2>HP Victus 16</h2>
+        <ul class="key-specs">
+            <li>Intel i7-14700HX</li>
+            <li>32GB RAM</li>
+            <li>1TB SSD</li>
+            <li>RTX 4060</li>
+        </ul>
+        <button class="view-details">Lihat Detail</button>
+    </div>
+</div>
+
+        <!-- Lenovo Legion -->
+<div class="product-card" data-brand="Lenovo">
+    <img src="https://gamesmea.com/wp-content/uploads/2023/09/02_Legion_9i_Hero_RTX_Gaming.jpg" alt="Lenovo Legion 9i Laptop" loading="lazy">
+    <div class="card-info">
+        <h2>Lenovo Legion 9i</h2>
+        <ul class="key-specs">
+            <li>Intel Core Ultra 9 275HX</li>
+            <li>64GB RAM</li>
+            <li>2TB SSD</li>
+            <li>RTX 5090 24GB</li>
+        </ul>
+        <button class="view-details">Lihat Detail</button>
+    </div>
+</div>
+
+               <!-- MSI Titan 18 HX -->
+        <div class="product-card" data-brand="MSI">
+            <img src="https://www.gadgetpilipinas.net/wp-content/uploads/2024/01/MSI-Titan-HX-06.jpg" alt="MSI Titan 18 HX Laptop" loading="lazy">
+            <div class="card-info">
+                <h2>MSI Titan 18 HX</h2>
+                <ul class="key-specs">
+                    <li>Intel Core Ultra 9</li>
+                    <li>96GB RAM</li>
+                    <li>6TB SSD</li>
+                </ul>
+                <button class="view-details">Lihat Detail</button>
+            </div>
+        </div>
+     
+        <!-- Alienware Area-51 16 -->
+<div class="product-card" data-brand="Alienware">
+    <img src="https://cdn.wccftech.com/wp-content/uploads/2025/01/Alienware-Area-51-Laptops-4-scaled.jpeg" alt="Alienware Area-51 16 Laptop" loading="lazy">
+    <div class="card-info">
+        <h2>Alienware 16 Area-51</h2>
+        <ul class="key-specs">
+            <li>Intel Core Ultra 9</li>
+            <li>64GB RAM</li>
+            <li>4TB SSD</li>
+        </ul>
+        <button class="view-details">Lihat Detail</button>
+    </div>
+</div>
+
+        <!-- Asus ROG -->
+        <div class="product-card" data-brand="asus">
+            <img src="https://dlcdnwebimgs.asus.com/files/media/B6E6970A-9728-4F44-A81E-4175939B8925/v1/img/kv/kv@2x.jpg" alt="Asus ROG Laptop" loading="lazy">
+            <div class="card-info">
+                <h2>Asus ROG Strix</h2>
+                <ul class="key-specs">
+                    <li>Intel i9-14900HX</li>
+                    <li>32GB RAM</li>
+                    <li>1TB SSD</li>
+                </ul>
+                <button class="view-details">Lihat Detail</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-img" src="" alt="Product Image">
+            <div id="modal-specs">
+                <!-- Specs will be populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pakdimas Web. Info produk laptop terkini.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
