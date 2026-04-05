@@ -29,7 +29,7 @@ const products = {
     }
 },
    Lenovo : {
-    name: 'Lenovo Legion 9i Gen 10',
+    name: 'Lenovo Legion 9i',
     img: 'https://gamesmea.com/wp-content/uploads/2023/09/02_Legion_9i_Hero_RTX_Gaming.jpg',
     specs: {
         'Processor': 'Intel Core Ultra 9 275HX (24 cores)',
